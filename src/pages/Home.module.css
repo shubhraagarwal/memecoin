@@ -290,7 +290,7 @@
 
 .tooltip .tooltiptext {
   visibility: hidden;
-  width: 140px;
+  width: 100px;
   background-color: #555;
   color: #fff;
   text-align: center;
@@ -319,4 +319,106 @@
 .tooltip:hover .tooltiptext {
   visibility: visible;
   opacity: 1;
+}
+.hello {
+  display: none;
+}
+
+@media screen and (max-width: 500px) {
+  .home {
+    max-width: 100%;
+    max-height: 100vh;
+    overflow-x: hidden !important;
+  }
+  .nav {
+    justify-content: space-around;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .logoIcon {
+    width: 40%;
+    height: auto;
+    aspect-ratio: 3/2;
+  }
+  .buttonContainer {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    align-items: flex-end;
+  }
+  .logoImage {
+    width: 70%;
+  }
+  .logoContainer {
+    position: inherit;
+    transform: translateX(10%);
+  }
+  .button {
+    font-size: 12px;
+  }
+  .ratingContainer {
+    flex-direction: column-reverse;
+    padding: 0;
+    min-height: 0;
+    align-items: flex-end;
+    padding-right: 10vw;
+  }
+  .two {
+    gap: 10px;
+    font-size: 12px;
+    text-align: right;
+    transform: translateY(10%);
+  }
+  .paragraphContainer1 {
+    font-size: 12px;
+    align-self: flex-end;
+    transform: translateX(22vw);
+  }
+  .paragraphContainer2 {
+    font-size: 12px;
+    /* align-self: flex-end; */
+  }
+  .paragraphContainer3 {
+    transform: translateY(70vw);
+  }
+  .one {
+    gap: 30px;
+    font-size: 12px;
+    position: absolute;
+    left: 0;
+    padding-left: 10px;
+    transform: translateY(15vh);
+  }
+  .bestOfTheContainer,
+  .bestOfTheContainer1 {
+    font-size: 12px;
+  }
+  .buttonIcon {
+    position: absolute;
+    height: 50px;
+    transform: translateY(20vh);
+  }
+  .three {
+    display: none;
+  }
+  .hello {
+    display: block;
+    font-size: 12px;
+    position: absolute;
+    bottom: 40vw;
+    left: 10vw;
+    color: white;
+    text-align: center;
+  }
+  .hare1 {
+    font-size: 30px;
+  }
+  .wrapper {
+    background-color: var(--color-gold);
+    display: flex;
+    flex-wrap: wrap;
+    color: black;
+    padding: 2px 5px;
+    align-self: center;
+  }
 }

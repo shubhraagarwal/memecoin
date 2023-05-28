@@ -43,7 +43,7 @@ const Home: FunctionComponent = () => {
         </div>
       </div>
       <div className={styles.logoContainer}>
-        <img className={styles.logoIcon} alt="" src="/image.png" />
+        <img className={styles.logoImage} alt="" src="/image.png" />
       </div>
       <div className={styles.ratingContainer}>
         <div className={styles.one}>
@@ -123,6 +123,36 @@ const Home: FunctionComponent = () => {
           <div className={styles.paragraphContainer3}>
             <b className={styles.goLooneyGo}>GO LOONEY GO</b>
             <div className={styles.x20x50x}>10x 20x 50x 100x 1000x</div>
+          </div>
+        </div>
+      </div>
+      <div className={styles.hello}>
+        <b>
+          NEW <span className={styles.richestMan}>RICHEST MAN</span> IN THE
+          WORLD
+        </b>
+        <div className={styles.hello1}>
+          <b className={styles.hare1}>
+            <span className={styles.richestMan}>LOONEY</span> HARE
+          </b>
+          <p className={styles.richestMan}>FOUNDER OF $LOONEY</p>
+          <div className={styles.tooltip}>
+            <span className={styles.tooltiptext} id="myTooltip">
+              Click to copy
+            </span>
+            <div
+              onClick={() =>
+                navigator.clipboard.writeText(
+                  "0x3d714060eC329700D1bE724036040537c565eA08"
+                )
+              }
+              className={styles.wrapper}
+            >
+              <div className={styles.contractAddress1}>
+                Contract Address : <br />{" "}
+                0x3d714060eC329700D1bE724036040537c565eA08
+              </div>
+            </div>
           </div>
         </div>
       </div>
