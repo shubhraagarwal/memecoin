@@ -7,15 +7,39 @@ const Home: FunctionComponent = () => {
         <img className={styles.logoIcon} alt="" src="/Logo.png" />
 
         <div className={styles.buttonContainer}>
-          <div className={styles.button}>
-            <b className={styles.viewDextools}>View Dextools</b>
-          </div>
-          <div className={styles.button}>
-            <b className={styles.joinTelegram}>JOIN TELEGRAM</b>
-          </div>
-          <div className={styles.button}>
-            <b className={styles.joinTelegram}>TWITTER</b>
-          </div>
+          <a
+            style={{
+              textDecoration: "none",
+              color: "black",
+            }}
+            href="https://www.dextools.io/app/en/ether/pair-explorer/0x0f53dd5ed8eb4d2f58cfe6f81ab5815392b283c3"
+          >
+            <div className={styles.button}>
+              <b className={styles.viewDextools}>View Dextools</b>
+            </div>
+          </a>
+          <a
+            href="https://t.me/looneyportal"
+            style={{
+              textDecoration: "none",
+              color: "black",
+            }}
+          >
+            <div className={styles.button}>
+              <b className={styles.joinTelegram}>JOIN TELEGRAM</b>
+            </div>
+          </a>
+          <a
+            href="https://twitter.com/golooneygo"
+            style={{
+              textDecoration: "none",
+              color: "black",
+            }}
+          >
+            <div className={styles.button}>
+              <b className={styles.joinTelegram}>TWITTER</b>
+            </div>
+          </a>
         </div>
       </div>
       <div className={styles.logoContainer}>
