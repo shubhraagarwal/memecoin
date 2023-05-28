@@ -1,0 +1,322 @@
+.joinTelegram {
+  position: relative;
+  line-height: 22.4px;
+}
+.button {
+  background-color: var(--color-khaki);
+  border: 1px solid var(--color-black);
+  padding: 5px 7px;
+}
+.button,
+.buttonContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.buttonContainer {
+  padding: 0 9px 0 0;
+  gap: 10px;
+  display: flex;
+}
+.logoContainer {
+  position: absolute;
+  top: 10px;
+
+  transform: translateX(60%);
+}
+
+.cryptoTwitter,
+.iRunIt {
+  line-height: 30.8px;
+  font-weight: 600;
+  width: 201.87px;
+  height: 28px;
+}
+.iRunIt {
+  top: 31.59px;
+  color: var(--color-white);
+  width: 100.4px;
+}
+
+.bestOf {
+  margin: 0;
+}
+.bestOfTheContainer {
+  display: flex;
+  align-items: center;
+}
+.buyBottomsContainer {
+  line-height: 22.4px;
+  font-weight: 300;
+  display: flex;
+  font-size: var(--font-size-base);
+  color: var(--color-white);
+  height: 42.4px;
+  width: max-content;
+}
+.textInput {
+  height: 44.8px;
+  font-size: var(--font-size-base);
+  color: var(--color-white);
+}
+.buttonContainer1 {
+  font-size: 38px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.dontWasteMyContainer,
+.whalesOnly {
+  line-height: 33.6px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  width: 170.34px;
+  height: 64px;
+}
+.whalesOnly {
+  top: 68.8px;
+  left: 21.99px;
+  color: var(--color-gold);
+  width: 178.21px;
+  height: 30.4px;
+}
+.paragraphContainer1 {
+  height: calc(100% - 618.4px);
+  text-align: right;
+  font-size: var(--font-size-5xl);
+  color: var(--color-white);
+}
+.factor,
+.iMakePrice,
+.priceNotA {
+  line-height: 28px;
+  font-weight: 600;
+  align-items: center;
+  text-align: right;
+}
+
+.iMakePrice {
+  color: var(--color-white);
+}
+.paragraphContainer2 {
+  text-align: right;
+  font-size: var(--font-size-xl);
+}
+.goLooneyGo,
+.x20x50x {
+  line-height: 30.8px;
+  display: flex;
+  align-items: center;
+  width: 180.01px;
+  height: 28px;
+}
+.x20x50x {
+  font-size: var(--font-size-base);
+  line-height: 22.4px;
+  font-weight: 300;
+  color: var(--color-white);
+  width: 178.86px;
+  height: 20px;
+}
+.paragraphContainer3 {
+  height: calc(100% - 666px);
+  width: calc(100% - 780px);
+  text-align: right;
+}
+
+.richestMan {
+  color: var(--color-gold);
+}
+.inTheWorld {
+  left: 520.19px;
+  width: 182.56px;
+}
+.paragraphContainer4 {
+  width: 1000px;
+  height: 30.8px;
+  color: var(--color-white);
+}
+.hare,
+.looney {
+  line-height: 106.4px;
+}
+.hare {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 95.2px;
+}
+.looney {
+  color: var(--color-white);
+}
+.paragraphContainer5 {
+  width: 1000px;
+  height: 106.4px;
+  font-size: var(--font-size-57xl);
+}
+.founderOfLooney {
+  line-height: 30.8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 28px;
+}
+.horizontalContainer {
+  height: calc(100% - 591.2px);
+  text-align: center;
+}
+.contractAddress {
+  position: relative;
+  font-weight: 500;
+}
+.contractAddress0x638af6905Wrapper {
+  background-color: var(--color-gold);
+  display: flex;
+  padding: 16px 20px;
+  align-items: center;
+  align-self: center;
+  justify-content: center;
+  font-size: 13px;
+  color: var(--color-black);
+  width: max-content;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+}
+.volumeMoonIssue {
+  line-height: 25.2px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  width: 394.64px;
+  height: 23.2px;
+}
+.textInputContainer {
+  width: 100%;
+  max-width: 100%;
+  overflow: hidden;
+  height: 170px;
+}
+.getRichOr {
+  line-height: 25.2px;
+  font-weight: 600;
+  text-align: right;
+  display: flex;
+  align-items: center;
+  width: 232.11px;
+  height: 23.2px;
+}
+.viewDextools {
+  position: relative;
+  line-height: 22.4px;
+  text-transform: uppercase;
+}
+.viewDextoolsWrapper {
+  background-color: var(--color-khaki);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 162px;
+  height: 34px;
+  display: flex;
+  flex-direction: row;
+  padding: 4.400000095367432px 7.280004978179932px 6.199998378753662px
+    7.599999904632568px;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--font-size-base);
+  color: var(--color-black);
+}
+.image {
+  height: calc(100% - 478.8px);
+  width: 650px;
+  font-size: var(--font-size-lg);
+  color: var(--color-white);
+}
+.ratingContainer {
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 15vw;
+  display: flex;
+  font-size: var(--font-size-3xl);
+  color: var(--color-gold);
+  min-height: 100vh;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.home {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background-image: url(/public/bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-black);
+  font-family: var(--font-readex-pro);
+}
+.one {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 100px;
+}
+.three {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  transform: translateY(60%);
+}
+.two {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 40px;
+  transform: translateY(25%);
+}
+.tooltip {
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 140px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  bottom: 150%;
+  left: 50%;
+  margin-left: -75px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
