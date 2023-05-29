@@ -4,7 +4,7 @@ const Home: FunctionComponent = () => {
   return (
     <div className={styles.home}>
       <div className={styles.nav}>
-        <img className={styles.logoIcon} alt="" src="/Logo.png" />
+        <img className={styles.logoIcon} alt="" src="/logomobile.png" />
 
         <div className={styles.buttonContainer}>
           <a
@@ -104,6 +104,15 @@ const Home: FunctionComponent = () => {
               </div>
             </div>
           </div>
+          <a
+            style={{
+              textDecoration: "none",
+              color: "#ffe54a",
+            }}
+            href="mailto:golooneygo@gmail.com "
+          >
+            <b className={styles.founderOfLooney}>golooneygo@gmail.com</b>
+          </a>
         </div>
         <div className={styles.two}>
           <div className={styles.paragraphContainer1}>
@@ -154,6 +163,15 @@ const Home: FunctionComponent = () => {
               </div>
             </div>
           </div>
+          <a
+            style={{
+              textDecoration: "none",
+              color: "#ffe54a",
+            }}
+            href="mailto:golooneygo@gmail.com "
+          >
+            <b className={styles.founderOfLooney}>golooneygo@gmail.com</b>
+          </a>
         </div>
       </div>
     </div>

@@ -335,11 +335,6 @@
     padding-left: 0;
     padding-right: 0;
   }
-  .logoIcon {
-    width: 40%;
-    height: auto;
-    aspect-ratio: 3/2;
-  }
   .buttonContainer {
     display: flex;
     flex-direction: column;
@@ -348,6 +343,9 @@
   }
   .logoImage {
     width: 70%;
+  }
+  .logoIcon {
+    height: 40px;
   }
   .logoContainer {
     position: inherit;
@@ -405,7 +403,7 @@
     display: block;
     font-size: 12px;
     position: absolute;
-    bottom: 40vw;
+    bottom: 30vw;
     left: 10vw;
     color: white;
     text-align: center;
