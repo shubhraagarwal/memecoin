@@ -377,7 +377,9 @@
     /* align-self: flex-end; */
   }
   .paragraphContainer3 {
-    transform: translateY(70vw);
+    transform: translateY(32vh);
+    text-align: right;
+    width: fit-content;
   }
   .one {
     gap: 30px;
@@ -403,7 +405,7 @@
     display: block;
     font-size: 12px;
     position: absolute;
-    bottom: 30vw;
+    bottom: -5vh;
     left: 10vw;
     color: white;
     text-align: center;
